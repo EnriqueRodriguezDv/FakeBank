@@ -1,0 +1,48 @@
+.containerOptionUser {
+  display: flex;
+  justify-content: center;
+
+  .optionUser {
+    position: relative;
+    max-height: 500px;
+    height: 300px;
+    width: 90%;
+    margin-bottom: 20px;
+
+    figure {
+      position: absolute;
+      height: inherit;
+
+      img {
+        height: inherit;
+        max-height: inherit;
+        object-fit: contain;
+        max-width: 100%;
+        width: 100%;
+        border-radius: 100px;
+        opacity: 0.8;
+      }
+    }
+
+    h3 {
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: 0.6s;
+      text-shadow: 2px 2px black;
+      color: #e88f05;
+      margin: 0;
+
+      &:hover {
+        background-color: rgba($color: #fff, $alpha: 0.7);
+      }
+    }
+  }
+}

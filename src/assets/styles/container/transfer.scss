@@ -1,0 +1,28 @@
+.transfer-container {
+  min-height: calc(100vh - 55.97px - 209.27px);
+  background-image: url("../../static/transfer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-text-stroke: 1px white;
+
+  .container-fluid {
+    min-height: inherit;
+
+    .row {
+      min-height: inherit;
+
+      .col-6{
+        max-width: 100%;
+      }
+
+      .form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+

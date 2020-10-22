@@ -1,0 +1,17 @@
+li {
+  cursor: pointer;
+}
+
+.cursor-show:hover {
+  div {
+    display: block;
+
+    a {
+      color: #818181;
+
+      &:hover {
+        display: block;
+      }
+    }
+  }
+}

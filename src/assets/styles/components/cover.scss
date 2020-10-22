@@ -1,0 +1,76 @@
+#cover {
+  figure {
+    position: relative;
+
+    .principalImg {
+      max-height: 600px;
+      width: 100%;
+      object-fit: cover;
+      object-position: center top;
+    }
+
+    .container-title {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+
+      .title {
+        color: white;
+        max-width: 40%;
+        text-align: center;
+        margin: 0 20px;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px black;
+        font-size: calc(100vw - 97vw);
+      }
+    }
+  }
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+  .lionMoney {
+    img {
+      height: calc(100vw - 70vw);
+      object-fit: contain;
+    }
+  }
+
+  .lion {
+    img {
+      height: calc(100vw - 70vw);
+      object-fit: contain;
+    }
+  }
+
+  .monopoly {
+    img {
+      height:calc(100vw - 70vw);
+      object-fit: contain;
+    }
+  }
+
+  .footerCover {
+    position: relative;
+    img {
+      width: 100%;
+      height: calc(100vw - 50vw);
+    }
+
+    .buttonsGroup {
+      position: absolute;
+      top: 50px;
+      right: 100px;
+      text-align: center;
+
+      h2 {
+        text-shadow: 2px 2px #e88a40;
+      }
+    }
+  }
+}

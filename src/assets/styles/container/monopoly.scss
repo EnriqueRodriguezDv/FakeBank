@@ -1,0 +1,14 @@
+.section-monopoly {
+  min-height: calc(100vh - 55.97px - 209.27px);
+
+  .player-container {
+    min-height: inherit;
+
+    .player-menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+}

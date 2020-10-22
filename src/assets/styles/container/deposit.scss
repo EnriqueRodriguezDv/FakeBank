@@ -1,0 +1,25 @@
+.deposit-container {
+  min-height: calc(100vh - 55.97px - 209.27px);
+  background-image: url("../../static/pig.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  h2{
+    -webkit-text-stroke: 1px white;
+  }
+
+  .move-money-container {
+    height: calc(100vh - 55.97px - 209.27px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    .move-money-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+}
